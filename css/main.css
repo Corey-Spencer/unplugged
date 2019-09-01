@@ -98,6 +98,117 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* HEADER & FOOTER BASE STYLES */
+   header,
+   footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+   
+   header .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+   nav {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+   .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+   .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+   /* HERO STYLES */
+   .hero-area {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   /* ASIDE STYLES */
+   aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+   /* FEATURES STYLES */
+   .features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+   .features-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+   /* REVIEWS STYLES */
+   .reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+   /* MISSION STYLES */
+   .mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+   /* CONTACT-SECTION STYLES */
+   .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+   /* FAQ STYLES */
+   .faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+   .faq .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
