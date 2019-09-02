@@ -149,10 +149,10 @@ textarea {
 
   img {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+  }
+
+  figure {
+    margin: 0;
   }
 
 
@@ -175,6 +175,14 @@ textarea {
     align-items: center;
     flex-flow: row wrap;
     margin: 0;
+  }
+
+  header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
   }
 
   .header-divider {
@@ -487,6 +495,10 @@ textarea {
   header .content-wrapper {
     width: 100%;
     justify-content: space-between;
+  }
+
+  header figure {
+    width: 30%;
   }
 
   header nav {
