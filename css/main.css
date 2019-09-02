@@ -147,6 +147,14 @@ textarea {
     margin: 50px 0; 
   }
 
+  img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
 
    /* HEADER & FOOTER BASE STYLES */
    header,
@@ -240,6 +248,8 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     background: url('/img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
+     background-size: cover;
    }
 
    /* ASIDE STYLES */
@@ -282,6 +292,8 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background: url('/img/rawpixel-800820-unsplash1.jpg') center no-repeat #333;
+    background-size: cover;
   }
 
   .features h2 {
